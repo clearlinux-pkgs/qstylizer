@@ -4,7 +4,7 @@
 #
 Name     : qstylizer
 Version  : 0.2.1
-Release  : 2
+Release  : 3
 URL      : https://github.com/blambright/qstylizer/archive/0.2.1/qstylizer-0.2.1.tar.gz
 Source0  : https://github.com/blambright/qstylizer/archive/0.2.1/qstylizer-0.2.1.tar.gz
 Summary  : Stylesheet Generator for PyQt{4-5}/PySide{1-2}
@@ -13,16 +13,15 @@ License  : MIT
 Requires: qstylizer-license = %{version}-%{release}
 Requires: qstylizer-python = %{version}-%{release}
 Requires: qstylizer-python3 = %{version}-%{release}
-Requires: inflection
-Requires: tinycss2
 BuildRequires : buildreq-distutils3
-BuildRequires : inflection
-BuildRequires : pbr
-BuildRequires : pytest
-BuildRequires : pytest-mock
-BuildRequires : pytest-runner
-BuildRequires : pytest-xdist
-BuildRequires : tinycss2
+BuildRequires : pypi(inflection)
+BuildRequires : pypi(pbr)
+BuildRequires : pypi(pytest)
+BuildRequires : pypi(pytest_mock)
+BuildRequires : pypi(pytest_runner)
+BuildRequires : pypi(pytest_xdist)
+BuildRequires : pypi(tinycss2)
+BuildRequires : pypi-pytest
 
 %description
 *********
@@ -72,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1632448035
+export SOURCE_DATE_EPOCH=1641653840
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

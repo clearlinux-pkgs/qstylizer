@@ -1,6 +1,7 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-pytest
-pytest-mock
-pytest-runner
-pytest-xdist
+pypi(pytest)
+pypi(pytest_mock)
+pypi(pytest_runner)
+pypi(pytest_xdist)
+pypi-pytest
