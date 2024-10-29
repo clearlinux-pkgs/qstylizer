@@ -7,7 +7,7 @@
 #
 Name     : qstylizer
 Version  : 0.2.3
-Release  : 7
+Release  : 8
 URL      : https://github.com/blambright/qstylizer/archive/0.2.3/qstylizer-0.2.3.tar.gz
 Source0  : https://github.com/blambright/qstylizer/archive/0.2.3/qstylizer-0.2.3.tar.gz
 Summary  : Stylesheet Generator for PyQt{4-5}/PySide{1-2}
